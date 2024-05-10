@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.box {
+border: 2px solid rgb(225, 220, 240);
+border-radius: 10px;
+height: 600px;
+width: 400px;
+margin-top:50px;
+margin-left:500px;
+margin-right:500px;
+margin-bottom:50px;
+}
+.card > img {
+padding: 5px;
+border-radius: 10px;
+height: 300px;
+width: 394px;
+}
+.tags {
+margin-left: 10px;
+padding: 10px;
+}
+.tags > button {
+background-color: white;
+border-radius: 10px;
+border: 0.5px solid rgb(179, 168, 168);
+padding: 4px 8px;
+cursor: pointer;
+color: #ada5a5;
+font-weight: bold;
+margin-right: 10px;
+}
+.heading {
+margin-left: 10px;
+}
+.heading h2 {
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+  sans-serif;
+  margin-left:10px;
+}
+.heading p {
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+  sans-serif;
+color: #ada5a5;
+line-height: 19px;
+margin-top: 10px;
+}
+.btn {
+padding:40px;
+text-align: center;
+}
+.btn a {
+background-color: #e2ecfd;
+padding: 8px 10px;
+border-radius: 20px;
+text-decoration: none;
+color: rgb(17, 123, 215);
+font-weight: 600;
+}
+.btn a:hover {
+background-color: #679cf9;
+color: rgb(7, 29, 46);
+}
+p{
+margin-left:10px;
+}
+@media only screen and (max-width:455px) {
+    .box{
+        margin-left:0px;
+        margin-right:0px;
+    }
+}
